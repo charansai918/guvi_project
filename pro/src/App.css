@@ -1,0 +1,155 @@
+.App {
+  text-align: center;
+}
+form{
+  background-color: blanchedalmond;
+  border-radius: 20px;
+  display: inline-block;
+  margin: 10px;
+}
+
+form div{
+  margin: 40px;
+ 
+
+}
+
+input{
+  width: 300px;
+  height: 40px;
+  border-radius: 6px;
+}
+input:hover{
+ background-color: beige;
+}
+
+::placeholder{
+  font-size: 1.1rem;
+  font-weight:600 ;
+}
+
+.signup-button{
+background-color: rgba(15, 220, 224, 0.842);
+color: white;
+width: 90px;
+height: 40px;
+position: relative;
+right: 60px;
+bottom: 18px;
+padding: 10px;
+border-radius: 5px;
+}
+.signup-button:hover{
+  background-color: white;
+  color:  rgba(15, 220, 224, 0.842);;
+  
+  }
+
+.login-button{
+  background-color: rgb(83, 135, 107);
+  color: white;
+  width: 90px;
+  height: 40px;
+  position: relative;
+ 
+  left: 60px;
+bottom: 18px;
+  padding: 10px;
+  border-radius: 5px;
+  }
+  .login-button:hover {
+    background-color: green;
+    color: rgb(83, 135, 107);;
+   
+   
+    }
+
+
+  a{
+    text-decoration: none;
+    color: white;
+  }
+  /* a:hover{
+  
+    color: rgb(83, 135, 107);;
+  } */
+
+  .login-button1{
+   
+    background-color: rgb(83, 135, 107);
+    color: white;
+    width: 300px;
+    border-radius: 7px ;
+    height: 40px;
+   
+    padding: 10px;
+    }
+
+    .login-button1:hover{
+   
+      background-color: green;
+      color: white;
+    
+      }
+
+    .signup-button1{
+      background-color: rgba(15, 220, 224, 0.842);
+      color: white;
+      width: 300px;
+      height: 40px;
+      padding: 10px;
+      border-radius: 5px;
+      position: relative;
+      bottom: 10px;
+    }
+
+    .signup-button1:hover{
+      color: rgba(15, 220, 224, 0.842);
+      background-color: rgb(129, 189, 209)
+     
+    }
+
+    .select-input{
+      width: 306px;
+      height: 45px;
+      border-radius: 6px;
+      font-size: 1.1rem;
+      font-weight:600;
+      color: gray;
+      
+    }
+    .select-input:hover{
+      background-color: beige;
+      
+
+    }
+
+    .profile{
+      background-color:blanchedalmond ;
+      border-radius: 7px ;
+      display: inline-block;
+      padding: 40px;
+      margin: 20px;
+      border: 1px solid ;
+
+      
+    }
+
+    .profile-button{
+      background-color: rgba(255, 0, 0, 0.658);
+      color: white;
+      width: 200px;
+      height: 40px;
+      margin: 20px;
+      border-radius: 15px;
+    }
+
+    .profile-button:hover{
+      background-color: rgb(255, 0, 0);
+      color: white;
+     
+    }
+
+    .text{
+      color: gray;
+    }
